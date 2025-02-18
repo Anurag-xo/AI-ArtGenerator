@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # AI-ArtGenerator
 =======
 # Build and Deploy Your Own AI Image Art Generator App | Next.js, Node.js, Express & MongoDB
@@ -155,3 +156,6 @@ Once you download the final source code, you will get a ZIP file, then you will 
 - [@consultancy](https://www.theblockchaincoders.com/consultancy)
 - [@youtube](https://www.youtube.com/@daulathussain)
 >>>>>>> f0ac6a1 (Initial commit)
+=======
+# AI-ArtGenerator
+>>>>>>> 35d23012ed01cccc33e652aad60b89053e342880
