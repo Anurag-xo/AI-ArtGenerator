@@ -2,7 +2,7 @@ const axios = require("axios");
 const fs = require("fs");
 const sharp = require("sharp");
 const path = require("path");
-const post = require("../models/Post");
+const Post = require("../models/Post");
 const User = require("../models/User");
 const { CustomError } = require("../middlewares/error");
 
@@ -35,7 +35,7 @@ const createPostWithImagesController_V3 = async (req, res, next) => {
 
     const imageBuffer = Buffer.from(response.data);
 
-    await sharpp(imageBuffer).png().toFile(filePath);
+    await sharp(imageBuffer).png().toFile(filePath);
 
     const newPost = new Post({
       user: userId,
