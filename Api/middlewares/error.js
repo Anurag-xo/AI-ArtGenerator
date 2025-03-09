@@ -7,7 +7,7 @@ const errorHandler = (err, req, res, next) => {
 };
 
 class CustomError extends Error {
-  constructor(messgage, status = 500) {
+  constructor(message, status = 500) {
     super(message);
     this.name = this.constructor.name;
     this.status = status;
